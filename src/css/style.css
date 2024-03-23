@@ -1,7 +1,8 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 :root{
-    --colortitulo:#181E4B
+    --colortitulo:black
     --color-texto: #FFFFFF
+    
 }
 *{
     margin: 0;
@@ -13,7 +14,8 @@ a{
     text-decoration: none;
 }
 .header{
-    background-color: #181E4B;
+    background-color: black;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,4 +25,137 @@ a{
 
 nav a{
     color: var(--colortexto);
+
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+
+.nav-list li {
+    margin-right: 16px;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+
+.titulos{
+    text-align: center;
+    
+}
+
+.section1{
+    background-color: beige;
+}
+
+.section2{
+    background-color: black;
+    color:white;
+}
+
+.estrenoss-fila{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.img-style {
+    margin: 10px;
+    width: 30%;
+    height: auto;
+}
+
+.estreno-item {
+    margin-bottom: 1rem;
+}
+
+.negri{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+#contacto {
+    padding: 50px 0;
+    background-color: var(--colortexto);
+    text-align: center;
+    background-color: beige ;
+}
+
+.contacto-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contacto-container h2 {
+    margin-bottom: 20px;
+    color: var(--colortitulo);
+}
+
+.contacto-container p {
+    margin-bottom: 30px;
+    color: var(--colortitulo);
+}
+
+.contacto-container form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.contacto-container input,
+.contacto-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--colortitulo);
+    border-radius: 5px;
+}
+
+.contacto-container button {
+    padding: 10px 20px;
+    background-color: var(--colortexto);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+
+.contacto-container button:hover {
+    background-color: white; 
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+button a{
+    color: white;
+}
+
+button{
+    background-color: red;
+    border: 6px solid red;
+    /* font-size: larger; */
+    border-radius: 20px;
+    /* padding: 10px;
+    height: 16px; */
+
 }
