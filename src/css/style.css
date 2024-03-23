@@ -10,9 +10,6 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-a{
-    text-decoration: none;
-}
 .header{
     background-color: black;
     flex-wrap: wrap;
@@ -22,12 +19,13 @@ a{
     padding: 20px 15px;
     color: white;
 }
-
+a{
+    text-decoration: none;
+}
 nav a{
     color: var(--colortexto);
 
 }
-
 .nav-list{
     display: flex;
     flex-direction: row;
@@ -36,15 +34,12 @@ nav a{
     padding: 0;
     margin:0;
 }
-
 .nav-list li {
     margin-right: 16px;
 }
-
 .nav-list li:last-child {
     margin-right: 0;
 }
-
 
 .titulos{
     text-align: center;
@@ -65,17 +60,14 @@ nav a{
     justify-content: space-evenly;
     margin: 10px;
 }
-
+.estreno-item {
+    margin-bottom: 1rem;
+}
 .img-style {
     margin: 10px;
     width: 30%;
     height: auto;
 }
-
-.estreno-item {
-    margin-bottom: 1rem;
-}
-
 .negri{
     font-weight: bold;
     font-size: 25px;
@@ -130,39 +122,30 @@ nav a{
 .contacto-container button:hover {
     background-color: black; 
 }
-
-
 footer {
     background-color: black;
     color: white;
     padding: 15px 0;
     display: flex;
     flex-direction: column;
-    
     align-items: center;
-    gap: px;
-
+    gap: 10px;
 }
-
 #nose{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
 }
-
-
 button a{
     color: white;
     font-size: larger;
 }
-
 button{
     background-color: red;
     border: 6px solid red;
     border-radius: 20px;
 }
-
 form >::placeholder{
     color: black;
 }
