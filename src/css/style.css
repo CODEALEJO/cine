@@ -19,7 +19,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 15px;
+    padding: 20px 15px;
     color: white;
 }
 
@@ -48,7 +48,7 @@ nav a{
 
 .titulos{
     text-align: center;
-    
+    padding: 20px 0px;
 }
 
 .section1{
@@ -78,15 +78,9 @@ nav a{
 
 .negri{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
+    text-decoration:none;
 }
-
-
-
-
-
-
-
 #contacto {
     padding: 50px 0;
     background-color: var(--colortexto);
@@ -134,28 +128,42 @@ nav a{
 }
 
 .contacto-container button:hover {
-    background-color: white; 
+    background-color: black; 
 }
 
 
 footer {
     background-color: black;
     color: white;
-    text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    gap: px;
+
+}
+
+#nose{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
 }
 
 
 button a{
     color: white;
+    font-size: larger;
 }
 
 button{
     background-color: red;
     border: 6px solid red;
-    /* font-size: larger; */
     border-radius: 20px;
-    /* padding: 10px;
-    height: 16px; */
-
 }
+
+form >::placeholder{
+    color: black;
+}
+
